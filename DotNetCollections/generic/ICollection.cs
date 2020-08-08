@@ -1,6 +1,6 @@
 ﻿namespace DotNetCollections.generic
 {
-    interface ICollection<T> : IEnumerable<T>
+    public interface ICollection<T> : IEnumerable<T>
     {
         int Count { 
             get; 

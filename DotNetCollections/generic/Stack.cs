@@ -58,9 +58,11 @@ namespace DotNetCollections.generic
                 {
                     System.Threading.Interlocked.CompareExchange<Object>(ref _syncRoot, new Object(), null);
                 }
+
                 return _syncRoot;
             }
         }
+
         #endregion Properties
 
         #region Methods
@@ -168,7 +170,7 @@ namespace DotNetCollections.generic
 
         #endregion Methods
 
-        #region Subclasses
+        #region Inner classes
 
         public struct Enumerator : IEnumerator<T>, DotNetCollections.IEnumerator
         {
@@ -265,6 +267,6 @@ namespace DotNetCollections.generic
             }
         }
 
-        #endregion Subclasses
+        #endregion Inner classes
     }
 }
