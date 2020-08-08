@@ -14,4 +14,4 @@
 	- SortedDictionary
 
 ## HashSet
-![HashSet class underlying structure](https://github.com/Mikhail-Vilms/dot-net-collections/DotNetCollections/pics/hash_set_impl.jpg)
+![HashSet class underlying structure](https://github.com/Mikhail-Vilms/dot-net-collections/blob/master/DotNetCollections/pics/hash_set_impl.jpg)
